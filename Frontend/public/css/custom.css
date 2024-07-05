@@ -1,0 +1,138 @@
+.profilpic{
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+    height: 120px;
+    margin: 15px;
+    padding: 1px;
+    width: 120px;
+}
+.profilpicmin{
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+    height: 20px;
+    padding: 1px;
+    width: 20px;
+}
+.underline{
+	border-bottom: 1px solid white;
+    border-top: 1px solid #ebebeb;
+	padding-bottom: 15px;
+}
+
+.underline label{
+	width:114px;
+}
+
+.edit {
+    border-radius: 5px;
+    font-size: 22px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 2px;
+    width: 24px;
+	margin-top: 20px;	
+    z-index: 9;
+}
+
+.incomplete{
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom:20px;
+}
+.incomplete a{
+	margin-bottom:5px;
+}
+  .btn{
+	  margin-bottom:5px;
+  }
+.photosection{text-align:center;margin-bottom:5px;}
+#showPhoto{width:100%;}
+.showPhoto{width:100%;}
+.photosection td{padding:0px;}
+.reference-images{width:150px;margin:5px !important;float:left;}
+.mybox{min-height: 70px !important;}
+.margin10{margin-bottom:10px;}
+.center{text-align:center;}
+.left{text-align:left;}
+.no-padding{padding:0px !important;}
+
+#submit-btn{
+	    background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #178acc;
+    filter: none;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	background-color: #2fa4e7;
+	color: #ffffff;
+	    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 8px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#FileInput{
+	border: 1px dotted;
+	width:100%;
+}
+#output,#error{
+	padding: 5px;
+	font-size: 12px;
+}
+/* prograss bar */
+#progressbox {
+	border: 1px solid #CAF2FF;
+	padding: 1px; 
+	position:relative;
+	width:100%;
+	border-radius: 3px;
+	margin: 10px;
+	display:none;
+	text-align:left;
+}
+#progressbar {
+	height:20px;
+	border-radius: 3px;
+	background-color: #CAF2FF;
+	width:1%;
+}
+#statustxt {
+	top:3px;
+	left:50%;
+	position:absolute;
+	display:inline-block;
+	color: #FFFFFF;
+}
+.delete{
+   border-radius: 5px;
+    font-size: 12px;
+    position: absolute;
+    right: 3px;
+    text-align: center;
+    top: 2px;
+    width: 17px;
+    z-index: 9;
+	background: #f9f2f4;
+}
+.delete span{
+	color:#b94a48;
+	cursor: pointer
+}
+
+.thumbnail {
+    margin-bottom: 20px !important;
+}
+
+.thumbnail img, .thumbnail > a {
+    height: auto;
+    width: 170px;
+}
